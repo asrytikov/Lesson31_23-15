@@ -1,2 +1,9 @@
-package org.example.proxies;public interface CommentNotificationProxy {
+package org.example.proxies;
+
+import org.example.model.Comment;
+
+public interface CommentNotificationProxy {
+
+    void sendComment(Comment comment);
+
 }
